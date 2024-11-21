@@ -68,7 +68,6 @@ const FetchProduct: React.FC = () => {
   const wallet = useAnchorWallet();
   const [item, setItem] = useState('');
   const [price, setPrice] = useState('');
-  const [time, setTime] = useState('');
   const [trades, setTrades] = useState<any[]>([]);
   const [error, setError] = useState<string | null>(null);
 
@@ -124,7 +123,6 @@ const FetchProduct: React.FC = () => {
       fetchTrades(); // Refresh trades
       setItem('');
       setPrice('');
-      setTime('');
     } catch (err: any) {
       setError(err.message || "Error saving trade");
       console.error("Error saving trade:", err);
