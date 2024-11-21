@@ -8,7 +8,7 @@ const App: React.FC = () => {
     <WalletContextProvider>
       <div className="min-h-screen bg-gradient-to-br from-black via-white to-black flex flex-col items-center justify-between p-6">
         <h1 className="text-3xl text-yellow text-center mb-6">
-          SOLANA + TYPESCRIPT + REACT + TAILWINDCSS SETUP
+          NIGER DEVS WORKSHOP CAPSTONE
         </h1>
         <div className="p-6">
           <CustomWalletMultiButton />
